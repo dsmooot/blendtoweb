@@ -34,7 +34,7 @@ export default {
   },
   methods: {
     init() {
-      const MODEL_PATH = "./../assets/dude.glb";
+      const MODEL_PATH = "/assets/dude.glb";
 
       this.clock = new Three.Clock(); // Used for anims, which run to a clock instead of frame rate
       this.currentlyAnimating = false; // Used to check whether characters neck is being used in another anim
